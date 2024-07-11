@@ -1,0 +1,30 @@
+/* Order Confirmation-related styles */
+
+.order-confirmation-section {
+    background-color: #F1F1F0; /* Off-white */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    text-align: center;
+}
+
+.order-confirmation-section h2 {
+    margin-bottom: 20px;
+}
+
+.order-confirmation-section button {
+    padding: 10px 20px;
+    background-color: #32CCD8; /* Teal */
+    color: #FDFDFD; /* White */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.order-confirmation-section button:hover {
+    background-color: #F69A86; /* Coral */
+    transform: scale(1.05);
+}

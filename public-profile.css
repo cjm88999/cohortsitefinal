@@ -1,0 +1,29 @@
+/* Public Profile-related styles */
+
+.public-profile-section {
+    background-color: #F1F1F0; /* Off-white */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    text-align: center;
+}
+
+.public-profile-section h2 {
+    margin-bottom: 20px;
+}
+
+.public-profile-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}

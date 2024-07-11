@@ -1,0 +1,46 @@
+/* Messages-related styles */
+
+.messages-section {
+    background-color: #F1F1F0; /* Off-white */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    text-align: center;
+}
+
+.messages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.message-card {
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.message-card:hover {
+    transform: scale(1.05);
+}
+
+.message-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.message-card p {
+    margin: 10px 0;
+}
+
+.message-card span {
+    font-size: 0.8em;
+    color: #666;
+}

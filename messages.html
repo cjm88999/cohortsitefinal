@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages - Cohort</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="messages.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Cohort</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="messages-section">
+            <h2>Messages</h2>
+            <div class="messages-list" id="messagesList">
+                <!-- Messages will be dynamically loaded here -->
+            </div>
+            <button onclick="startNewChat()">Start New Chat</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="notifications.html">Notifications</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </footer>
+
+    <script src="messages.js" type="module"></script>
+</body>
+</html>

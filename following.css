@@ -1,0 +1,37 @@
+/* Following-related styles */
+
+.following-section {
+    background-color: #F1F1F0; /* Off-white */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    text-align: center;
+}
+
+.following-section h2 {
+    margin-bottom: 20px;
+}
+
+.following-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF; /* White */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.following-card:hover {
+    transform: scale(1.05);
+}
+
+.following-card img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
